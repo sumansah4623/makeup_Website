@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khushboo | Makeup Artist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-pink-100 py-20">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h1 class="text-5xl font-bold text-pink-800 mb-4">Khushboo</h1>
+      <p class="text-lg text-pink-700 mb-6">Professional Makeup Artist | Enhance Your Natural Beauty</p>
+      <a href="#contact" class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-full transition">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-16" id="services">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-8">My Services</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div class="p-6 bg-pink-50 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-pink-700 mb-2">Bridal Makeup</h3>
+          <p>Elegant and flawless bridal looks tailored to your big day.</p>
+        </div>
+        <div class="p-6 bg-pink-50 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-pink-700 mb-2">Party & Event Makeup</h3>
+          <p>Look stunning for any event with glam and bold styles.</p>
+        </div>
+        <div class="p-6 bg-pink-50 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-pink-700 mb-2">Photoshoot Makeup</h3>
+          <p>Camera-ready makeup for models, portfolios, and studio shoots.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="py-16 bg-gray-50" id="portfolio">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-10">Portfolio</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="image/p1.jpg" class="rounded-lg shadow">
+        <img src="image/p2.jpg" class="rounded-lg shadow">
+        <img src="image/p3.jpg" class="rounded-lg shadow">
+        <img src="image/p4.jpg" class="rounded-lg shadow">
+        <img src="image/p5.jpg" class="rounded-lg shadow">
+        <img src="image/p6.jpg" class="rounded-lg shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Maps -->
+  <section class="py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Find Me</h2>
+      <div class="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-lg">
+        <iframe class="w-full h-96 rounded-xl"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.7306711130175!2d90.4071435759114!3d23.83071228444785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zMjPCsDQ5JzUwLjYiTiA5MMKwMjQnMzMuOCJF!5e0!3m2!1sen!2sbd!4v1610010890176!5m2!1sen!2sbd"
+          allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form (Formspree) -->
+  <section class="py-16" id="contact">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Get in Touch</h2>
+      <form action="https://formspree.io/f/xblyrqjj" method="POST" class="bg-pink-50 p-8 rounded-xl shadow space-y-4 text-left">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 border rounded">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 border rounded">
+        <input type="text" name="service" placeholder="Service Needed" class="w-full p-3 border rounded">
+        <textarea name="message" rows="4" placeholder="Message" class="w-full p-3 border rounded"></textarea>
+        <button type="submit" class="bg-pink-600 text-white px-6 py-3 rounded hover:bg-pink-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+ <footer class="bg-pink-100 text-center py-6">
+  <p class="mb-2">&copy; 2025 Khushboo| All rights reserved.</p>
+  <p class="mb-2 text-pink-700">
+    📞 <a href="tel:+918235757411" class="hover:underline">+91 8235757411</a>
+  </p>
+  <div class="space-x-4 text-pink-700 text-xl">
+    <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://wa.me/yourwhatsappnumber" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</footer>
+
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/yourwhatsappnumber" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50">
+    <i class="fab fa-whatsapp text-2xl"></i>
+  </a>
+
+</body>
+</html>
